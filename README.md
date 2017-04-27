@@ -13,7 +13,7 @@
 * Cookbook(s) -- must be original to you.
 * Single-host solution
 * Linux
-* Installs Oracle NodeJS, Oracle MySQL, and Ghost blogging platform
+* Installs NodeJS, Oracle MySQL, and Ghost blogging platform
 * Ensure we can reach the blog.
 * Must use Berkshelf
 * Must use Vagrant
