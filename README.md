@@ -14,8 +14,8 @@
 * Single-host solution
 * Linux
 * Creates a sudo group that:
- * may or may not be given sudo depending on the environment attributes
- * creates a new user `sudo_person` with a home directory of `/var/my_home/`
+  * may or may not be given sudo depending on the environment attributes
+  * creates a new user `sudo_person` with a home directory of `/var/my_home/`
 * installs named and ensures the daemon runs at runtime
 * Must use Berkshelf
 * Must use Vagrant
