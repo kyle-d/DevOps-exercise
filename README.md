@@ -22,7 +22,6 @@
  * Group owner
  * Group to give access to
  * A list of actions we are giving the non-owner/non-group
-* Creates a single page that we can view via cURL
 * Must use Berkshelf
 * Must use Vagrant
 * Community cookbook inclusion is fine, as long as it is relevant to the task
