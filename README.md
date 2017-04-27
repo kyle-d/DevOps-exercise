@@ -13,8 +13,10 @@
 * Cookbook(s) -- must be original to you.
 * Single-host solution
 * Linux
-* Installs MariaDB, HHVM, and NGINX
-* Creates a single page that we can view via cURL
+* Creates a sudo group that:
+ * may or may not be given sudo depending on the environment attributes
+ * creates a new user `sudo_person` with a home directory of `/var/my_home/`
+* installs named and ensures the daemon runs at runtime
 * Must use Berkshelf
 * Must use Vagrant
 * Community cookbook inclusion is fine, as long as it is relevant to the task
@@ -28,4 +30,3 @@
 * Reusable components
 * Rake tasks
 * Properly handle secrets
-
