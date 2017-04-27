@@ -13,8 +13,8 @@
 * Cookbook(s) -- must be original to you.
 * Single-host solution
 * Linux
-* Installs MariaDB, HHVM, and NGINX
-* Creates a single page that we can view via cURL
+* Installs Oracle NodeJS, Oracle MySQL, and Ghost blogging platform
+* Ensure we can reach the blog.
 * Must use Berkshelf
 * Must use Vagrant
 * Community cookbook inclusion is fine, as long as it is relevant to the task
@@ -28,4 +28,3 @@
 * Reusable components
 * Rake tasks
 * Properly handle secrets
-
