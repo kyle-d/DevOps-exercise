@@ -16,12 +16,12 @@
 * Installs Oracle Java
 * Installs NGINX
 * Downloads, configures, and installs Jenkins (select common plugins)
- * Bonus points if it is ready to go out-of-the-box
- * Just having it to the setup UI is ample.
+  * Bonus points if it is ready to go out-of-the-box
+  * Just having it to the setup UI is ample.
 * Enables the jenkins daemon at system start.
 * Configures NGINX to forward all requests to Jenkins.
- * NGINX should listen on 0.0.0.0:80
- * Jenkins should listen on 127.0.0.1:8080
+  * NGINX should listen on 0.0.0.0:80
+  * Jenkins should listen on 127.0.0.1:8080
 * Must use Berkshelf
 * Must use Vagrant
 * Community cookbook inclusion is fine, as long as it is relevant to the task
