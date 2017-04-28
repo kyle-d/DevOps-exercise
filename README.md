@@ -14,6 +14,11 @@
 * Dual-host solution
 * Linux
 * Installs Oracle Java
+* Must use Berkshelf
+* Must use Vagrant
+* Must use Test Kitchen
+* Community cookbook inclusion is fine, as long as it is relevant to the task
+* Base OS must run CentOS 7
 #### Host 1 (Master)
 * Installs NGINX
 * Downloads, configures, and installs Jenkins (select common plugins)
@@ -27,12 +32,6 @@
 * Configured as a Jenkins worker box
 * Auto connected to the master node.
 
-
-* Must use Berkshelf
-* Must use Vagrant
-* Must use Test Kitchen
-* Community cookbook inclusion is fine, as long as it is relevant to the task
-* Base OS must run CentOS 7
 
 ### Would like to see, but not mandatory:
 
