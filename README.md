@@ -11,9 +11,10 @@
 ### Must have:
 
 * Cookbook(s) -- must be original to you.
-* Single-host solution
+* Dual-host solution
 * Linux
 * Installs Oracle Java
+#### Host 1 (Master)
 * Installs NGINX
 * Downloads, configures, and installs Jenkins (select common plugins)
   * Bonus points if it is ready to go out-of-the-box
@@ -22,8 +23,14 @@
 * Configures NGINX to forward all requests to Jenkins.
   * NGINX should listen on 0.0.0.0:80
   * Jenkins should listen on 127.0.0.1:8080
+#### Host 2 (Worker)
+* Configured as a Jenkins worker box
+* Auto connected to the master node.
+
+
 * Must use Berkshelf
 * Must use Vagrant
+* Must use Test Kitchen
 * Community cookbook inclusion is fine, as long as it is relevant to the task
 * Base OS must run CentOS 7
 
