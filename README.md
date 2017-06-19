@@ -13,7 +13,7 @@
 * Cookbook(s) -- must be original to you.
 * Single-host solution
 * Linux
-* Installs BlogEngine2 and gets it running
+* Installs django-cms and gets it running
 * Ensure we can reach the blog
 * Must use Berkshelf
 * Must use Vagrant
