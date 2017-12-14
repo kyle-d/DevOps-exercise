@@ -11,13 +11,13 @@
 ### Must have:
 
 * Terraform Configs
- * Single server
- * Elastic Load Balancer in front of server
- * Internal Route 53 zone for name resolution to the server
- * External DNS to the load balancer
- * Method to provision server via Chef
- * Ability to set host name via environment variable
- * Store state in S3
+  * Single server
+  * Elastic Load Balancer in front of server
+  * Internal Route 53 zone for name resolution to the server
+  * External DNS to the load balancer
+  * Method to provision server via Chef
+  * Ability to set host name via environment variable
+  * Store state in S3
 
 ### Would like to see, but not mandatory:
 
