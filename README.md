@@ -15,8 +15,7 @@
 * Linux
 * Installs Oracle Java
 * Must use Berkshelf
-* Must use Vagrant
-* Must use Test Kitchen
+* Must use Test Kitchen with the Vagrant driver
 * Community cookbook inclusion is fine, as long as it is relevant to the task
 * Base OS must run CentOS 7
 #### Host 1 (Master)
