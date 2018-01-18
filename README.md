@@ -18,7 +18,7 @@
   * creates a new user `sudo_person` with a home directory of `/var/my_home/`
 * installs named and ensures the daemon runs at runtime
 * Must use Berkshelf
-* Must use Vagrant
+* Must use Test Kitchen with the Vagrant driver
 * Community cookbook inclusion is fine, as long as it is relevant to the task
 * Base OS must run CentOS 7
 
