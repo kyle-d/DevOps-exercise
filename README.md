@@ -16,7 +16,7 @@
 * Installs NodeJS, Oracle MySQL, and Ghost blogging platform
 * Ensure we can reach the blog.
 * Must use Berkshelf
-* Must use Vagrant
+* Must use Test Kitchen with the Vagrant driver
 * Community cookbook inclusion is fine, as long as it is relevant to the task
 * Base OS must run CentOS 7
 
