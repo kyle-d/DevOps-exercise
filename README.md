@@ -13,7 +13,7 @@
 * Cookbook(s) -- must be original to you.
 * Single-host solution
 * Linux
-* Installs django-cms and gets it running
+* Installs NGINX, MariaDB, and Wordpress (up to but not including the Configure Wordpress stage)
 * Ensure we can reach the blog
 * Must use Berkshelf
 * Must use Test Kitchen with the Vagrant driver
@@ -27,4 +27,5 @@
 * Style/Syntax/Unit tests
 * Reusable components
 * Rake tasks
+* Fully configure Wordpress (database, first user, etc.)
 * Properly handle secrets
